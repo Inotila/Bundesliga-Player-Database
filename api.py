@@ -29,11 +29,13 @@ def predict():
         # Return results
         response = {
             'random_forest': {
-                'prediction': rf_prediction,
+                'Player age': age,
+                'prediction price (Millions)': rf_prediction,
                 'confidence': rf_confidence
             },
             'gradient_boosting': {
-                'prediction': gbr_prediction,
+                'Player age': age,
+                'prediction price (Millions)': gbr_prediction,
                 'confidence ': gbr_confidence
             }
         }
