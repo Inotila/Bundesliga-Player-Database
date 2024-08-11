@@ -52,7 +52,9 @@ Body (Example):
 }
 
 ## How to Use the API
-Run the API Server: Make sure the Flask server is running. You can start it by running the following command:
+Run Jupyter Notebook -> player_price_prediciton.ipynb
+
+Run the API Server, start it by running the following command:
 
 python3 api.py
 
@@ -63,4 +65,12 @@ curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -
 # Bugs
 
 The confidence value is too high and the data set I have used is a  little challenging to express as a probablity. 
-More work will need to be done as this has not been fixed yet.
+More work will need to be done as this bug has not been fixed yet.
+
+## Credits/Reference
+This work is the original work of Inotila Nghaamwa, however resources from school material and other accedemice sources were used to supplement, for example the data is from www.kaggle.com
+
+### Credits
+
+Content - Inotila Nghaamwa and www.kaggle.com
+Text-Written by Inotila Nghaamwa.
